@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .main {
+        border: 0.5px solid black;
+        height: 8vh;
+        border-radius: 22px;
+        display: grid;
+        place-items: center;
+        font-size: large;
+        padding: 2%;
+        text-align: center;
+        font-family: cursive;
+        background-color: royalblue;
+        color: white;
+      }
+      .generate {
+        height: 6vh;
+        margin-top: 3vh;
+        background: #e63946;
+        color: white;
+        border-radius: 1.5vh;
+      }
+      .generate:hover {
+        cursor: pointer;
+        font-weight: bold;
+      }
+    </style>
+    <title>Jokes</title>
+  </head>
+  <body>
+    <div class="main">Tap the button to generate a random joke</div>
+    <button onclick="generate()" class="generate">Generate</button>
+  </body>
+  <script src="./script.js"></script>
+</html>
